@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.date__picker {
+  margin-left: 16rem;
+  display: flex;
+  justify-content: center;
+}
+
+.bar__chart {
+  width: 700px;
+}
+
+.bar__chart--individual {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  width: 700px;
+}
